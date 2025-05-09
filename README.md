@@ -25,3 +25,11 @@ Sistema de detección temprana de fraudes para la empresa petrolera Petrolrios. 
 ## Instalación
 
 1. Clonar el repositorio
+
+
+## Links
+- Link GoogleDrive: https://drive.google.com/file/d/1Ro5EpqhSlp12Ix-ZmYOkQzoGxhEYoNgu/view?usp=sharing
+- Link Youtube: https://youtu.be/SVXuwTBmaNE
+- link GitHub: https://github.com/StevenCarrilloLoor/PetrolriosFraudeDetection.git
+- Link Deploy: https://petrolriosfraudedetection.onrender.com
+
