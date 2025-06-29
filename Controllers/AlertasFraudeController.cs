@@ -1,17 +1,18 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using PetrolriosFraudeDetection.Data;
+using PetrolriosFraudeDetection.Interfaces;
 using PetrolriosFraudeDetection.Models.Entities;
-using PetrolriosFraudeDetection.Models.Services;
 
 namespace PetrolriosFraudeDetection.Controllers
 {
+
     public class AlertasFraudeController : Controller
     {
         private readonly ApplicationDbContext _context;
-        private readonly MotorDeteccion _motorDeteccion;
+        private readonly IMotorDeteccion _motorDeteccion;
         
-        public AlertasFraudeController(ApplicationDbContext context, MotorDeteccion motorDeteccion)
+        public AlertasFraudeController(ApplicationDbContext context, IMotorDeteccion motorDeteccion)
         {
             _context = context;
             _motorDeteccion = motorDeteccion;
@@ -84,6 +85,7 @@ namespace PetrolriosFraudeDetection.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Analizar(DateTime fecha)
         {
+            // Usando la interfaz IMotorDeteccion en lugar de la implementación concreta
             var alertas = await _motorDeteccion.AnalizarPatrones(fecha);
             
             if (alertas.Any())

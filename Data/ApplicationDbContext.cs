@@ -5,6 +5,8 @@ namespace PetrolriosFraudeDetection.Data
 {
     public class ApplicationDbContext : DbContext
     {
+        
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
@@ -23,7 +25,7 @@ namespace PetrolriosFraudeDetection.Data
                 optionsBuilder.UseSqlServer("Server=STEVEN-ALIENWAR\\SQLTRABAJO;Database=PetrolriosFraudeDetection;Trusted_Connection=True;TrustServerCertificate=True;");
             }
         }
-       
+        //public DbSet<Ubicacion> Ubicaciones {get; set;}
         public DbSet<Estacion> Estaciones { get; set; }
         public DbSet<Venta> Ventas { get; set; }
         public DbSet<Factura> Facturas { get; set; }

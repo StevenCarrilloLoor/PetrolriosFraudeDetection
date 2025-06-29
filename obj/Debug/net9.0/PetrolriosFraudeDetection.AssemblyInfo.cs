@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PetrolriosFraudeDetection")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+07adaeb38d978288a1f9ebc25adad520121a888c")]
 [assembly: System.Reflection.AssemblyProductAttribute("PetrolriosFraudeDetection")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PetrolriosFraudeDetection")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

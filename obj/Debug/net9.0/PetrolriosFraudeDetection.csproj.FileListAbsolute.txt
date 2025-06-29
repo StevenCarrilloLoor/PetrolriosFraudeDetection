@@ -540,3 +540,4 @@ C:\Users\steve\Desktop\SETUPS\Trabajos Visula code\CoreProyecto\PetrolriosFraude
 C:\Users\steve\Desktop\SETUPS\Trabajos Visula code\CoreProyecto\PetrolriosFraudeDetection\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\steve\Desktop\SETUPS\Trabajos Visula code\CoreProyecto\PetrolriosFraudeDetection\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\steve\Desktop\SETUPS\Trabajos Visula code\CoreProyecto\PetrolriosFraudeDetection\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\steve\Desktop\SETUPS\Trabajos Visula code\CoreProyecto\PetrolriosFraudeDetection\obj\Debug\net9.0\PetrolriosFraudeDetection.sourcelink.json
